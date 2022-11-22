@@ -15,6 +15,6 @@ class CachorroSeeder extends Seeder
      */
     public function run()
     {
-        Cachorro :: Factory(10)->create();
+        Cachorro :: Factory(5000)->create();
     }
 }

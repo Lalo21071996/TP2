@@ -15,6 +15,6 @@ class GatoSeeder extends Seeder
      */
     public function run()
     {
-        Gato :: Factory(10)->create();
+        Gato :: Factory(5000)->create();
     }
 }
