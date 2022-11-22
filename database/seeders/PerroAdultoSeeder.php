@@ -15,6 +15,6 @@ class PerroAdultoSeeder extends Seeder
      */
     public function run()
     {
-        PerroAdulto :: Factory(5000)->create();
+        PerroAdulto :: Factory(10)->create();
     }
 }

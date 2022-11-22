@@ -19,7 +19,7 @@ class GatoFactory extends Factory
     public function definition()
     {
         return [
-            'Sabor' => ("'Res', 'Pescado','pollo'"),
+            'Sabor' =>$this -> faker ->randomElement ($array = array ('Res','pescado','pollo')),
             'Precio' => $this -> faker -> numberBetween(10,20),
             'Cantidad' => $this -> faker -> numberBetween(1,100)
             //

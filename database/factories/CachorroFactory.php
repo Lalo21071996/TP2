@@ -19,7 +19,7 @@ class CachorroFactory extends Factory
     public function definition()
     {
         return [
-            'Sabor' => ("'Res','pollo'"),
+            'Sabor' =>$this -> faker ->randomElement ($array = array ('Res','pollo')),
             'Precio' => $this -> faker -> numberBetween(20,25),
             'Cantidad' => $this -> faker -> numberBetween(1,100)
             //

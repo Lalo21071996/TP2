@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             GatoSeeder ::class,
             CachorroSeeder ::class,
-            PerroAdultoSeeder :: class,
+            PerroAdultoSeeder :: class
         ]);
     }
 }
